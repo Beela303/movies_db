@@ -39,7 +39,7 @@ export default {
         const route = useRoute();
 
         onBeforeMount(() => {
-            fetch(`http://www.omdbapi.com/?apikey=${env.apikey}&i=${route.params.id}&plot=full`)
+            fetch(`https://www.omdbapi.com/?apikey=${env.apikey}&i=${route.params.id}&plot=full`)
                 .then(Response => Response.json())
                 .then(data => {
                     movie.value = data;
@@ -72,14 +72,15 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
     }
 
     img {
-        display: block;
+
+
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        height: 80vh;
 
         border-radius: 30px;
         border: 2px solid $secondary-color;
+
+        display: block;
 
         object-fit: cover;
     }
