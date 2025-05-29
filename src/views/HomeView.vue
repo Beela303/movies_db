@@ -81,6 +81,7 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
     }
 
     p {
+        margin-top: 5%;
         font-size: 2rem;
     }
 
@@ -239,12 +240,40 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
 
 @media screen and (max-width: 768px) {
     .home-page {
+        padding: 70px;
+
         h1 {
             font-size: 2.3rem;
         }
 
         p {
             font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-page {
+        padding: 50px;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .home-page {
+        h1 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1rem;
         }
     }
 }

@@ -72,8 +72,6 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
     }
 
     img {
-
-
         margin-left: auto;
         margin-right: auto;
 
