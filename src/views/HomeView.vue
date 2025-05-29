@@ -269,11 +269,11 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
 @media screen and (max-width: 300px) {
     .home-page {
         h1 {
-            font-size: 1.6rem;
+            font-size: 1.7rem;
         }
 
         p {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     }
 }
