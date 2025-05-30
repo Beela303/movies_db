@@ -8,7 +8,7 @@
         <p>Rated : {{ movie.Rated }}</p>
         <p>Released : {{ movie.Released }}</p>
         <p>Runtime : {{ movie.Runtime }}</p>
-        <p>Direcor : {{ movie.Direcor }}</p>
+        <p>Director : {{ movie.Director }}</p>
         <p>Writer : {{ movie.Writer }}</p>
         <p>Actors : {{ movie.Actors }}</p>
         <p>Language : {{ movie.Language }}</p>
