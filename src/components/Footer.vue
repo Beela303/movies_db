@@ -4,7 +4,8 @@
 
 <template>
     <footer>
-        <p>Nabila Abubakar - 2025 <br>
+        <p><a href="https://beela303.vercel.app/" target="_blank" rel="noopener noreferrer">Nabila Abubakar</a> - 2025
+            <br>
             API from <a href="http://omdbapi.com" target="_blank" rel="noopener noreferrer">OMDB</a></p>
     </footer>
 </template>
