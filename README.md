@@ -1,5 +1,19 @@
 # movies_db
 
+This is a website to search up any movie or series and view the info.
+
+## TECH
+
+Vue.js
+
+Sass
+
+Bootstrap
+
+## API
+
+OMDB
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

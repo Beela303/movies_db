@@ -1,6 +1,6 @@
 <script>
 import { ref } from 'vue';
-import env from '@/env.js';
+//import env from '@/env.js';
 
 export default {
     name: 'HomeView',
