@@ -26,9 +26,9 @@ $box-shadow-1: 0px 0px 6px rgba(0, 0, 0, 0.1);
 
   font-family: "Sansita", sans-serif;
 
-  &::selection {
+  /*&::selection {
     background: transparentize($secondary-color, 0.5);
-  }
+  }*/
 }
 
 //#130112
