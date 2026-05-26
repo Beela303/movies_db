@@ -1,6 +1,5 @@
 <script>
 import { ref } from 'vue';
-//import env from '@/env.js';
 
 export default {
     name: 'HomeView',
@@ -11,7 +10,10 @@ export default {
 
         const SearchMovies = () => {
             if (search.value != "") {
-                fetch(`https://www.omdbapi.com/?apikey=${apikey}&s=${search.value}`)
+
+                const key = import.meta.env.API_KEY; 
+
+                fetch(`/api/movies?s=${search.value}`)
                     .then(response => response.json())
                     .then(data => {
                         movies.value = data.Search;

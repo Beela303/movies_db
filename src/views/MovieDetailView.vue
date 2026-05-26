@@ -29,7 +29,6 @@
 <script>
 import { ref, onBeforeMount } from 'vue';
 import { useRoute } from 'vue-router';
-//import env from '@/env';
 
 export default {
     name: "MovieDetailView",
@@ -38,7 +37,9 @@ export default {
         const movie = ref({});
         const route = useRoute();
 
-        onBeforeMount(() => {fetch(`https://www.omdbapi.com/?apikey=${apikey}&i=${route.params.id}&plot=full`)                
+        const key = import.meta.env.API_KEY; 
+
+        onBeforeMount(() => {fetch(`/api/movies?i=${route.params.id}`)                
             .then(Response => Response.json())
                 .then(data => {
                     movie.value = data;

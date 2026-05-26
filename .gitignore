@@ -31,3 +31,6 @@ coverage
 *.tsbuildinfo
 
 src/env.js
+
+.env
+.env.local
