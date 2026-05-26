@@ -34,3 +34,5 @@ src/env.js
 
 .env
 .env.local
+.vercel
+.env*
